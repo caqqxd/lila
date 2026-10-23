@@ -2,7 +2,7 @@
 
 ```
 the idea is that no transform on a heard phrase should be allowed if the sum of its
-substitution costs exceed some value (currently 1.0). the makeGrammar.mts script generates json
+substitution costs exceeds some value (currently 1.0). the makeGrammar.mts script generates json
 arrays defining word grammars (tokens, substitution rules, etc) at grammar/<type-lang>.json.
 these are built from the inputs in ./lexicon/*.json and hopefully a crowdv.json
 
@@ -18,7 +18,7 @@ vocabulary words that lack a sufficient sample in the crowdv data.
 # usage:
 
 ```
-./pnpm make-grammar --freq=.002 \ # default values given explicitly here
+pnpm make-grammar --freq=.002 \ # default values given explicitly here
                     --count=6 \
                     moves-en # give the lexicon/patch prefixes to make-grammar as standard arguments
 ```

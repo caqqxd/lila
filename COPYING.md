@@ -113,7 +113,7 @@ Lichess as deployed on https://lichess.org/ also uses these external services:
 - [Spreadshirt](https://lichess.myspreadshop.net/) for the [Swag store](https://lichess.org/swag)
 - [mailcheck.p.rapidapi.com](https://rapidapi.com/Top-Rated/api/e-mail-check-invalid-or-disposable-domain)
 - [Amazon SES](https://aws.amazon.com/ses/) for transactional email
-- [check.torproject.org](https://check.torproject.org/torbulkexitlist) for a list or Tor exit nodes
+- [check.torproject.org](https://check.torproject.org/torbulkexitlist) for a list of Tor exit nodes
 - [detectlanguage.com](https://detectlanguage.com/)
 - [Google Cloud Messaging](https://developers.google.com/cloud-messaging/) for mobile notifications
 - [crowdin](https://crowdin.com/project/lichess) for localization

@@ -49,7 +49,7 @@ Use [GitHub issues](https://github.com/lichess-org/lila/issues) for bug reports 
 run
 ```
 
-The Wiki describes [how to setup a development environment](https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding).
+The Wiki describes [how to set up a development environment](https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding).
 
 ## HTTP API
 

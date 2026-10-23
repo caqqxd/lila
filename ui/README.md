@@ -10,7 +10,7 @@ Start it up in watch mode with `ui/build -w` to continuously rebuild when change
 
 When changes compile successfully, stdout will report creation of a new manifest. Manifests list public javascript and css assets that browsers must fetch independently. The server communicates those updated URLs in subsequent responses. Just reload your browser to see the results.
 
-> [!important]
+> [!IMPORTANT]
 > Package-only builds (like `ui/build lib analyse`) will compile the selected assets but do not produce a manifest. A full `ui/build` run is required to publish an updated manifest so your server can locate the new assets.
 
 # Testing
@@ -174,9 +174,9 @@ Entries may also take object form:
 ```
 When the object form is processed, symlinks for files globbed by the "path" pattern are created in /public/hashed same as before.
 
-Setting the optional "omit" field to true will omit all "path" globbed items from the client manifest. They will stil appear in the server manifest.
+Setting the optional "omit" field to true will omit all "path" globbed items from the client manifest. They will still appear in the server manifest.
 
-The optional "catalog" field may identifies a mapping file to be transformed. All occurrences of filenames globbed by the "path" pattern within the catalog file are replaced with their hashed symlink URLs. The modified catalog file contents are also content-hashed and written to /public/hashed. This is useful when an asset references other files by name and those references must be updated to reflect the hashed URLs. Any asset mapping within a static json or text file can be kept current in this way.
+The optional "catalog" field may identify a mapping file to be transformed. All occurrences of filenames globbed by the "path" pattern within the catalog file are replaced with their hashed symlink URLs. The modified catalog file contents are also content-hashed and written to /public/hashed. This is useful when an asset references other files by name and those references must be updated to reflect the hashed URLs. Any asset mapping within a static json or text file can be kept current in this way.
 
 * hash paths must begin with `/public` to resolve correctly on production deployments.
 

@@ -30,7 +30,7 @@ Generated AI code can be accepted, under some conditions:
 
 Some issues that need artwork and documentation to be resolved are tagged [`nontechnical`](https://github.com/lichess-org/lila/issues?q=is%3Aissue+is%3Aopen+label%3A%22non+technical%22).
 
-## I want to report a bug or a problem about Lichess
+## I want to report a bug or a problem in Lichess
 
 [**Make an issue**](https://github.com/lichess-org/lila/issues/new). Before creating an issue, make sure that:
 
